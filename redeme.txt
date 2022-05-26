@@ -1,0 +1,10 @@
+prenome et nome : Abdellah charki
+cne : S147011873
+master : MIDVI
+module : trchnology Jee
+project : devlopment application web avec jee (le chemain obtimale - A* algorithem )
+anne : 2021/2022
+
+===========================================================================
+
+le ficher de base de donne : trajecto.sql

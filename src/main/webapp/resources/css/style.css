@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+nav{
+    background: #ffffff;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.btn,input{
+    box-shadow: none !important;
+}
+
+input{
+    border-radius: 3px !important;
+}
+
+.traject{
+    width: 100%;
+    padding: 10px 200px; 
+}
+
+.traject ul{
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    border-left: 6px dashed #2d203c;
+    
+    padding: 10px 0 20px 50px;
+    position: relative;
+}
+
+
+ 
+.traject ul li:nth-child(odd){
+    background: #ddd;
+    padding: 10px 0 10px  20px;
+    margin-top: 10px; 
+    position: relative;
+}
+
+.traject ul li:nth-child(odd)::after{
+    content: "\f024";
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    left: -46px;
+    /* border-left: 10px solid #ddd; */
+    top: 0px;
+    background: #dddddd;
+    text-align: center;
+    line-height: 2.3;
+    font-size: 20px;
+    font-family: "Font Awesome 5 Free";
+    border-radius: -20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+
+.profile-btn{
+    background: #eee;
+    padding: 6px 14px 6px 20px;
+    border-radius: 25px;
+}
+.card-search{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+.input-city{
+	position: relative;
+	width: 100%;
+    display: inline-block;
+}
+
+.input-city ul{
+	width: 100%;
+	background: white;
+	position: absolute;
+	border-radius: 6px;
+	list-style: none;
+	padding:5px 0px;
+    display: none;
+    z-index: 9999999999999999999;
+}
+
+.input-city ul li{
+	    padding: 7px 16px;
+	    cursor: pointer;
+}
+
+.f-city{
+	display: flex;
+    flex-direction: row;
+    justify-content: end;
+    line-height: 1;
+}
+.f-city .input-city{
+    width: 220px !important;
+}
+
+.input-city ul li:hover{
+	background: #eee;
+}
